@@ -1,11 +1,12 @@
 <h1>Jobs#new</h1>
 <%= form_for @job do |f| %>
-  <%= f.text_field :title, placeholder: "title" %>
-  <%= f.text_field :company, placeholder: "company" %>
-  <%= f.text_field :about, placeholder: "about" %>
-  <%= f.text_field :url, placeholder: "url" %>
+    <%= f.collection_select :category_id, Category.all, :id, :name, {promt: "Choose a category" }, input_html: { class: "dropdown-toggle" }%>
+    <%= f.text_field :title, placeholder: "title" %>
+    <%= f.text_field :company, placeholder: "company" %>
+    <%= f.text_field :about, placeholder: "about" %>
+    <%= f.text_field :url, placeholder: "url" %>
 
-  <%= f.submit "submit"%>
+    <%= f.submit "submit"%>
 <% end %>
 
 <%= link_to "back home", root_path%>
