@@ -44,7 +44,6 @@ class JobsController < ApplicationController
 private
   def jobParams
     params.require(:job).permit(:title,:company,:about,:url)
-
   end
 
   def findJob
