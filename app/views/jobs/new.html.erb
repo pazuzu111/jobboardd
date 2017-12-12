@@ -1,6 +1,6 @@
 <h1>Jobs#new</h1>
 <%= form_for @job do |f| %>
-    <%= f.collection_select :category_id, Category.all, :id, :name, {promt: "Choose a category" }, input_html: { class: "dropdown-toggle" }%>
+    <%= f.collection_select :category_id, Category.all, :id, :name, {promt: "Choose a category" }%>
     <%= f.text_field :title, placeholder: "title" %>
     <%= f.text_field :company, placeholder: "company" %>
     <%= f.text_field :about, placeholder: "about" %>
