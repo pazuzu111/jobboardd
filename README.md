@@ -21,7 +21,8 @@ categories - name,
 
 # wireframe
 
-screen shot 2017-12-12 at 9 51 27 am screen shot 2017-12-12 at 9 53 15 am
+![screen shot 2017-12-12 at 9 51 27 am](https://user-images.githubusercontent.com/31411569/33916371-680d9cea-df76-11e7-9772-d59a6c0ec144.png)
+![screen shot 2017-12-12 at 9 53 15 am](https://user-images.githubusercontent.com/31411569/33916372-68210ab4-df76-11e7-83d2-b158680edf4d.png)
 
 # future features
 
