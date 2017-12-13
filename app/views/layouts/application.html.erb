@@ -13,8 +13,8 @@
     <% Category.all.each do |c| %>
         <%= link_to c.name, jobs_path(category: c.name)%>
     <%end%>
-    <%= yield %>
         <%= link_to 'add job', new_job_path%>
+    <%= yield %>
 
   </body>
 </html>
